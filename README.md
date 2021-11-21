@@ -1,7 +1,5 @@
 # KAKAOMALL_JSP
-> KAKAOMALL 패러디입니다.
-
-jsp, html, css, java로 만든 kakaomall 패러디 웹입니다.
+>jsp, html, css, java로 만든 kakaomall 패러디 웹입니다.
 
 ![](../header.png)
 
