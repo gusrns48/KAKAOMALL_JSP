@@ -9,32 +9,32 @@ public class ProductRepository {
 	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
 
 	public ProductRepository() {
-		Product lion = new Product("FRPBRYFMD0001", "<strong>í”„ë£¨í‹° ë¯¸ë‹ˆì¸í˜•-ë¼ì´ì–¸</strong>", 8000);
+		Product lion = new Product("FRPBRYFMD0001", "<strong>ÇÁ·çÆ¼ ¹Ì´ÏÀÎÇü-¶óÀÌ¾ğ</strong>", 8000);
 		lion.setDescription("11*10*11cm");
 		lion.setCategory("doll");
 		lion.setManufacturer("kakao");
 		lion.setUnitsInStock(978);
 		lion.setCondition("New");
-		lion.setBannerDescription("ê³¼ì¦™ë¯¸ê°€ íŒ¡!íŒ¡! ë‹¬ì½¤í•œ ê³¼ì¼ê³¼ í•¨ê»˜í•˜ëŠ”<br>ì¹´ì¹´ì˜¤í”„ë Œì¦ˆì™€ ì—¬ë¦„ì„ ì¦ê²¨ìš”~<br>" + "íŠœë¸Œ ìœ„ì— ë‘¥ë‘¥ ë– ë‹¤ë‹ˆëŠ” ë¼ì´ì–¸ì˜<br>ë¯¸ë‹ˆì¸í˜•ì…ë‹ˆë‹¤.");
-		lion.setImageUrl("images/ë¼ì´ì–¸.PNG");
+		lion.setBannerDescription("°úÁó¹Ì°¡ ÆÎ!ÆÎ! ´ŞÄŞÇÑ °úÀÏ°ú ÇÔ²²ÇÏ´Â<br>Ä«Ä«¿ÀÇÁ·»Áî¿Í ¿©¸§À» Áñ°Ü¿ä~<br>" + "Æ©ºê À§¿¡ µÕµÕ ¶°´Ù´Ï´Â ¶óÀÌ¾ğÀÇ<br>¹Ì´ÏÀÎÇüÀÔ´Ï´Ù.");
+		lion.setImageUrl("images/¶óÀÌ¾ğ.PNG");
 
-		Product apeach = new Product("FRPBAPFMD0001", "<strong>í”„ë£¨í‹° ë¯¸ë‹ˆì¸í˜•-ì–´í”¼ì¹˜</strong>", 8000);
+		Product apeach = new Product("FRPBAPFMD0001", "<strong>ÇÁ·çÆ¼ ¹Ì´ÏÀÎÇü-¾îÇÇÄ¡</strong>", 8000);
 		apeach .setDescription("11*8*9cm");
 		apeach .setCategory("doll");
 		apeach .setManufacturer("kakao");
 		apeach .setUnitsInStock(990);
 		apeach .setCondition("New");
-		apeach .setBannerDescription("ê³¼ì¦™ë¯¸ê°€ íŒ¡!íŒ¡! ë‹¬ì½¤í•œ ê³¼ì¼ê³¼ í•¨ê»˜í•˜ëŠ”<br>ì¹´ì¹´ì˜¤í”„ë Œì¦ˆì™€ ì—¬ë¦„ì„ ì¦ê²¨ìš”~<br>" + "íŠœë¸Œ ìœ„ì— ë‘¥ë‘¥ ë– ë‹¤ë‹ˆëŠ” ì–´í”¼ì¹˜ì˜<br>ë¯¸ë‹ˆì¸í˜•ì…ë‹ˆë‹¤.");
-		apeach .setImageUrl("images/ì–´í”¼ì¹˜.PNG");
+		apeach .setBannerDescription("°úÁó¹Ì°¡ ÆÎ!ÆÎ! ´ŞÄŞÇÑ °úÀÏ°ú ÇÔ²²ÇÏ´Â<br>Ä«Ä«¿ÀÇÁ·»Áî¿Í ¿©¸§À» Áñ°Ü¿ä~<br>" + "Æ©ºê À§¿¡ µÕµÕ ¶°´Ù´Ï´Â ¾îÇÇÄ¡ÀÇ<br>¹Ì´ÏÀÎÇüÀÔ´Ï´Ù.");
+		apeach .setImageUrl("images/¾îÇÇÄ¡.PNG");
 
-		Product tube = new Product("FRPBTBFMD0001", "<strong>í”„ë£¨í‹° ë¯¸ë‹ˆì¸í˜•-íŠœë¸Œ</strong>", 8000);
+		Product tube = new Product("FRPBTBFMD0001", "<strong>ÇÁ·çÆ¼ ¹Ì´ÏÀÎÇü-Æ©ºê</strong>", 8000);
 		tube.setDescription("11*10*11cm");
 		tube.setCategory("doll");
 		tube.setManufacturer("kakao");
 		tube.setUnitsInStock(1000);
 		tube.setCondition("New");
-		tube.setBannerDescription("ê³¼ì¦™ë¯¸ê°€ íŒ¡!íŒ¡! ë‹¬ì½¤í•œ ê³¼ì¼ê³¼ í•¨ê»˜í•˜ëŠ”<br>ì¹´ì¹´ì˜¤í”„ë Œì¦ˆì™€ ì—¬ë¦„ì„ ì¦ê²¨ìš”~<br>" + "íŠœë¸Œ ìœ„ì— ë‘¥ë‘¥ ë– ë‹¤ë‹ˆëŠ” íŠœë¸Œì˜<br>ë¯¸ë‹ˆì¸í˜•ì…ë‹ˆë‹¤.");
-		tube.setImageUrl("images/íŠœë¸Œ.PNG");
+		tube.setBannerDescription("°úÁó¹Ì°¡ ÆÎ!ÆÎ! ´ŞÄŞÇÑ °úÀÏ°ú ÇÔ²²ÇÏ´Â<br>Ä«Ä«¿ÀÇÁ·»Áî¿Í ¿©¸§À» Áñ°Ü¿ä~<br>" + "Æ©ºê À§¿¡ µÕµÕ ¶°´Ù´Ï´Â Æ©ºêÀÇ<br>¹Ì´ÏÀÎÇüÀÔ´Ï´Ù.");
+		tube.setImageUrl("images/Æ©ºê.PNG");
 
 		listOfProducts.add(lion);
 		listOfProducts.add(apeach);
