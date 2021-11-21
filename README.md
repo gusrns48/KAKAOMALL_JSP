@@ -4,12 +4,9 @@
 ![](/img/main.JPG)
 
 
-
 ## 배포 방법
 
 Apache Tomcat 9.0 - WAR file
-
-
 
 
 <br>
